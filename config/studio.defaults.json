@@ -1,0 +1,77 @@
+{
+  "studio_name": "CODEX STUDIO",
+  "workspace_root": "D:\\\\CODEX_STUDIO",
+  "defaults": {
+    "short_video_duration_seconds": [
+      15,
+      30
+    ],
+    "vertical": {
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16"
+    },
+    "feed_portrait": {
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": "4:5"
+    },
+    "landscape": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    },
+    "frame_rate_fps": 30,
+    "container": "MP4",
+    "video_codec": "H.264"
+  },
+  "applications": {
+    "blender": {
+      "enabled": true,
+      "verified": false
+    },
+    "after_effects": {
+      "enabled": true,
+      "verified": false
+    },
+    "premiere_pro": {
+      "enabled": true,
+      "verified": false
+    },
+    "capcut": {
+      "enabled": true,
+      "verified": false
+    },
+    "codex": {
+      "enabled": true,
+      "verified": false
+    }
+  },
+  "integrations": [
+    {
+      "name": "Raunen",
+      "url": "https://github.com/Zeyphers/raunen",
+      "status": "review_required"
+    },
+    {
+      "name": "arsub",
+      "url": "https://github.com/Ifazawezk/arabic-subtitles",
+      "status": "review_required"
+    },
+    {
+      "name": "LazyMotionToolkit",
+      "url": "https://github.com/raisulsohan/LazyMotionToolkit",
+      "status": "review_required"
+    },
+    {
+      "name": "Kerf",
+      "url": "https://github.com/kamalivaturi/kerf",
+      "status": "review_required"
+    },
+    {
+      "name": "AE Subtitle Plugin",
+      "url": "https://github.com/salahWD/AE-subtitle-plugin",
+      "status": "review_required"
+    }
+  ]
+}
